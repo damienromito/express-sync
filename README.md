@@ -4,19 +4,18 @@ How to use an express server with browser-sync (without gulp)
 
 #1 - Install express and browser-sync modules
 
-    `npm install`
 
 #2 - Launch the script
+    npm install
 
-    `npm start`
+    npm start
 same to:
-    `node app & browser-sync start --proxy 'localhost:9000' --files 'public'`
+    node app & browser-sync start --proxy 'localhost:9000' --files 'public'
 
 #3 - Modify style.css and save to test browser-sync
 
-    `body {
-        background: blue;
-        color: black;
-    }`
+    body {
+        background: red;
+    }
 
 Then you can see modifications without reload your browser
