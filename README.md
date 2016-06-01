@@ -4,9 +4,9 @@ How to use an express server with browser-sync (without gulp)
 
 #1 - Install express and browser-sync modules
 
+    npm install
 
 #2 - Launch the script
-    npm install
 
     npm start
 same to:
