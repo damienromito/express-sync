@@ -1,0 +1,14 @@
+{
+  "name": "Express-BrowserSync",
+  "version": "0.0.1",
+  "description": "Use an express server with browser-sync",
+  "main": "app.js",
+  "author": "@damienromito",
+  "scripts": {
+    "start": "node app & browser-sync start --proxy 'localhost:9000' --files 'public'"
+  },
+  "dependencies": {
+    "browser-sync": "^2.12.10",
+    "express": "^4.13.4"
+  }
+}
